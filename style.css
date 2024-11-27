@@ -1,81 +1,86 @@
-.container{
-    width: auto;
-}
-
-.hero{
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
-
-.hero-logo{
-    float: left;
+body{
+    font-family: Roboto, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.hero nav{
-    float: right;
-    /* margin-top: 10px; */
+.first-section{
+    background-color: #1f2937;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.hero li{
-    float: left;
-    display: inline;
-    padding: 0 10px 0 10px;
-}
-
-.hero-flex{
-    flex: 0 1 1 100%;
-}
-
-.hero-flex-1 h2{
-    color: #F9FAF8;
-    font-size: 48px;
-    font-style: extra-bold;
-    display: inline;
-}
-
-.hero-flex-1 p{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-button{
-    background-color: #3882f6;
-}
-
-.information h2{
-    font-size: 36px;
-    color: #1F2937;
-}
-
-.quote-section{
-    background-color: #e5e7eb;
-    font-size: 36px;
-}
-
-.quote{
-    color: #1F2937;
-    font-style: italic;
-    /* font-weight: lighter; */
-}
-
-.who-said-it{
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 20px; */
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0 220px;
     font-weight: bold;
 }
 
-.call-to-action{
-    height: 50px;
-    width: 80%;
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    color: #d9dbde;
+}
+
+.header a{
+    text-decoration: none;
+    color: #b8b8b8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 100px 220px;
+}
+
+.text-content{
+    max-width: 50%;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.sign-up-1{
     background-color: #3882f6;
     color: white;
-    text-align: center;
-    padding: 30px;
-
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: fit-content;
 }
 
-.footer{
-    background-color: #1F2937;
-    color: #e5e7eb;
+.image-placeholder {
+    background-color: #6D747D;
+    color: #d7d6d6;
+    height: 250px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 75px;
-}
+  }
