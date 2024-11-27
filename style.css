@@ -156,3 +156,42 @@ body{
     font-weight: 900;
     color: #1f2937;
 }
+
+/* FOURTH SECTION */
+
+.fourth-section{
+    padding: 40px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    color: white;
+    padding: 32px 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.cta-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cta-text{
+    color: #c5c6c8;
+    font-size: 18px;
+}
+
+.sign-up-2{
+    background-color: #3882f6;
+    color: white;
+    border: 2px white solid;
+    padding: 6px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: fit-content;
+}
